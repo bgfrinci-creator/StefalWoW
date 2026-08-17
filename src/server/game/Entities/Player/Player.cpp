@@ -31166,7 +31166,6 @@ void Player::SendPlayerChoice(ObjectGuid sender, int32 choiceId)
     displayPlayerChoice.HideWarboardHeader = playerChoice->HideWarboardHeader;
     displayPlayerChoice.KeepOpenAfterChoice = playerChoice->KeepOpenAfterChoice;
     displayPlayerChoice.ShowChoicesAsList = playerChoice->ShowChoicesAsList;
-    displayPlayerChoice.ForceDontShowChoicesAsList = playerChoice->ForceDontShowChoicesAsList;
     displayPlayerChoice.RequiresSelection = playerChoice->RequiresSelection;
 
     for (std::size_t i = 0; i < playerChoice->Responses.size() && (!playerChoice->MaxResponses || displayPlayerChoice.Responses.size() < *playerChoice->MaxResponses); ++i)
@@ -31251,6 +31250,8 @@ void Player::SendPlayerChoice(ObjectGuid sender, int32 choiceId)
             mawPower.Rarity = playerChoiceResponseTemplate.MawPower->Rarity;
             mawPower.SpellID = playerChoiceResponseTemplate.MawPower->SpellID;
             mawPower.MaxStacks = playerChoiceResponseTemplate.MawPower->MaxStacks;
+
+            displayPlayerChoice.HasPowerChoice = true;
         }
     }
 

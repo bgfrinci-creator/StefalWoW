@@ -17071,27 +17071,23 @@ struct PlayerCompanionInfoMeta
 {
     static constexpr DB2MetaField Fields[17] =
     {
-        { .Type = FT_STRING,               .ArraySize =  1, .IsSigned =  true },
-        { .Type = FT_STRING,               .ArraySize =  1, .IsSigned =  true },
-        { .Type = FT_INT,                  .ArraySize =  1, .IsSigned = false },
-        { .Type = FT_INT,                  .ArraySize =  1, .IsSigned =  true },
-        { .Type = FT_INT,                  .ArraySize =  1, .IsSigned =  true },
-        { .Type = FT_INT,                  .ArraySize =  1, .IsSigned =  true },
-        { .Type = FT_INT,                  .ArraySize =  1, .IsSigned =  true },
-        { .Type = FT_INT,                  .ArraySize =  1, .IsSigned =  true },
-        { .Type = FT_INT,                  .ArraySize =  1, .IsSigned =  true },
-        { .Type = FT_INT,                  .ArraySize =  1, .IsSigned =  true },
-        { .Type = FT_INT,                  .ArraySize =  1, .IsSigned =  true },
-        { .Type = FT_INT,                  .ArraySize =  1, .IsSigned =  true },
-        { .Type = FT_INT,                  .ArraySize =  1, .IsSigned =  true },
-        { .Type = FT_INT,                  .ArraySize =  1, .IsSigned =  true },
-        { .Type = FT_INT,                  .ArraySize =  1, .IsSigned =  true },
-<<<<<<< HEAD
-        { .Type = FT_INT,                  .ArraySize =  1, .IsSigned = false },
-=======
-        { .Type = FT_INT,                  .ArraySize =  1, .IsSigned =  true },
-        { .Type = FT_INT,                  .ArraySize =  1, .IsSigned =  true },
->>>>>>> 1fe2e77ec7 (Core/DataStores: Updated to 12.1.0)
+        {.Type = FT_STRING,               .ArraySize = 1, .IsSigned = true },
+        {.Type = FT_STRING,               .ArraySize = 1, .IsSigned = true },
+        {.Type = FT_INT,                  .ArraySize = 1, .IsSigned = false },
+        {.Type = FT_INT,                  .ArraySize = 1, .IsSigned = true },
+        {.Type = FT_INT,                  .ArraySize = 1, .IsSigned = true },
+        {.Type = FT_INT,                  .ArraySize = 1, .IsSigned = true },
+        {.Type = FT_INT,                  .ArraySize = 1, .IsSigned = true },
+        {.Type = FT_INT,                  .ArraySize = 1, .IsSigned = true },
+        {.Type = FT_INT,                  .ArraySize = 1, .IsSigned = true },
+        {.Type = FT_INT,                  .ArraySize = 1, .IsSigned = true },
+        {.Type = FT_INT,                  .ArraySize = 1, .IsSigned = true },
+        {.Type = FT_INT,                  .ArraySize = 1, .IsSigned = true },
+        {.Type = FT_INT,                  .ArraySize = 1, .IsSigned = true },
+        {.Type = FT_INT,                  .ArraySize = 1, .IsSigned = true },
+        {.Type = FT_INT,                  .ArraySize = 1, .IsSigned = true },
+        {.Type = FT_INT,                  .ArraySize = 1, .IsSigned = true },
+        {.Type = FT_INT,                  .ArraySize = 1, .IsSigned = true },
     };
 
     static constexpr DB2Meta Instance =

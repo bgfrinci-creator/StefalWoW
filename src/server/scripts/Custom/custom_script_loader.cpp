@@ -37,6 +37,7 @@ void AddSC_custom_druid_spell_fixes();
 
 // ==================== Per Zone Scripts ====================== //
 void AddSC_custom_elwynn_forest_npcs();
+<<<<<<< HEAD
 
 void AddSC_custom_stormwind_at();
 void AddSC_custom_stormwind_npcs();
@@ -57,6 +58,7 @@ void AddSC_custom_duskwood_npcs();
 void AddSC_custom_duskwood_objects();
 void AddSC_custom_duskwood_spells();
 void AddSC_custom_duskwood_quests();
+void AddSC_zone_northern_stranglethorn();
 
 void AddSC_custom_westfall_at();
 void AddSC_custom_westfall_npcs();
@@ -159,6 +161,7 @@ void AddCustomScripts()
     AddSC_custom_duskwood_objects();
     AddSC_custom_duskwood_spells();
     AddSC_custom_duskwood_quests();
+    AddSC_zone_northern_stranglethorn();
 
     AddSC_custom_westfall_at();
     AddSC_custom_westfall_npcs();

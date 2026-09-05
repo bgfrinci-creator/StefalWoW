@@ -13519,7 +13519,7 @@ bool Unit::SetWalk(bool enable)
     return true;
 }
 
-bool Unit::SetDisableGravity(bool disable, bool updateAnimTier /*= true*/)
+bool Unit::SetDisableGravity(bool disable, bool updateAnimTier /*= true*/, bool playHoverAnim /*= true*/)
 {
     if (disable == IsGravityDisabled())
         return false;
@@ -13556,7 +13556,7 @@ bool Unit::SetDisableGravity(bool disable, bool updateAnimTier /*= true*/)
         SendMessageToSet(packet.Write(), true);
     }
 
-    if (!GetVehicle())
+    if (playHoverAnim && !GetVehicle())
     {
         if (IsAlive())
         {

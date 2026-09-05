@@ -6942,14 +6942,14 @@ Position const RunBeforeTransformPos(76.83352f, -2141.4546f, -30.25066f, 0.0f);
 // ============================================================================
 std::vector<Waypoint> const EscapePath =
 {
-    Waypoint(Position(95.35018f,  -2186.5662f, -25.435192f, 0.0f), 0,    true),
-    Waypoint(Position(80.75061f,  -2218.7986f, -20.307482f, 0.0f), 0,    true),
-    Waypoint(Position(93.1872f,   -2233.609f,  -18.07708f, 0.0f), 0,    true),
-    Waypoint(Position(109.05787f,  -2233.4404f,  -9.346917f, 0.0f), 0,    true),
-    Waypoint(Position(124.09932f,  -2245.753f,  -5.4998455, 0.0f), 0,    true),
-    Waypoint(Position(70.19976f,  -2271.038f,  -1.5252416, 0.0f), 0,    true), //posledna
-    Waypoint(Position(120.707924f,  -2268.9934f,  40.60327f, 0.0f), 0,    true),
-    Waypoint(Position(96.436844f, -2254.6587f,  95.418915f, 0.0f), 0,    true)
+    Waypoint(Position(95.35018f, -2186.5662f, -25.435192f, 0.0f), 0, true),
+    Waypoint(Position(80.75061f, -2218.7986f, -20.307482f, 0.0f), 0, true),
+    Waypoint(Position(93.1872f, -2233.609f, -18.07708f, 0.0f), 0, true),
+    Waypoint(Position(109.05787f, -2233.4404f, -9.346917f, 0.0f), 0, true),
+    Waypoint(Position(124.09932f, -2245.753f, -5.4998455f, 0.0f), 0, true),
+    Waypoint(Position(70.19976f, -2271.038f, -1.5252416f, 0.0f), 0, true),//posledno
+    Waypoint(Position(120.707924f, -2268.9934f, 40.60327f, 0.0f), 0, true),
+    Waypoint(Position(96.436844f, -2254.6587f, 95.418915f, 0.0f), 0, true)
 };
 
 enum QuestWhoLurksData

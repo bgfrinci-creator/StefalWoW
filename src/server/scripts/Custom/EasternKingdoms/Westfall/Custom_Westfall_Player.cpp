@@ -24,7 +24,6 @@
 #include "Player.h"
 #include "SpellAuras.h"
 
-#include "Followship_bots_mail_handler.h"
 #include "Custom_Westfall_Defines.h"
 
 namespace Scripts::EasternKingdoms::Westfall
@@ -95,7 +94,6 @@ namespace Scripts::EasternKingdoms::Westfall
                 "- Lt. Horatio Laine";
 
             // No items needed, so pass empty vector
-            FSBMail::SendMail(senderEntry, player, subject, text, {});
         }
     };
 }

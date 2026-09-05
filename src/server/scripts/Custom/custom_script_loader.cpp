@@ -37,7 +37,6 @@ void AddSC_custom_druid_spell_fixes();
 
 // ==================== Per Zone Scripts ====================== //
 void AddSC_custom_elwynn_forest_npcs();
-<<<<<<< HEAD
 
 void AddSC_custom_stormwind_at();
 void AddSC_custom_stormwind_npcs();

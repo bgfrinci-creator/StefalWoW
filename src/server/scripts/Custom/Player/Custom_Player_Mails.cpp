@@ -23,8 +23,6 @@
 #include "ScriptMgr.h"                 // PlayerScript
 #include "Player.h"
 
-#include "Followship_bots_mail_handler.h"
-
 #include "Config.h"                       // sConfigMgr
 #include "Util.h"                         // Trinity::Tokenize
 #include "StringConvert.h"                // Trinity::StringTo
@@ -118,8 +116,6 @@ public:
             break;
         }
 
-        if (itemId)
-            FSBMail::SendMail(senderEntry, player, subject, text, { {itemId, 1} });
     }
 };
 
@@ -220,8 +216,6 @@ public:
             break;
         }
 
-        if (itemId)
-            FSBMail::SendMail(senderEntry, player, subject, text, { {itemId, 1} });
     }
 };
 
@@ -262,7 +256,7 @@ public:
             "Enclosed you will find a few essentials to help you take your first steps into this vast world. "
             "May your journey be filled with glory and fortune!";
 
-        FSBMail::SendMail(103976, player, subject, body, items);
+    
     }
 };
 

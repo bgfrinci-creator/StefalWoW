@@ -19,6 +19,7 @@
 
 // ==================== Player Scripts ======================== //
 void AddSC_custom_player_inventory();
+void AddSC_custom_player_mails();
 void AddSC_custom_player_chromie();
 
 // ==================== Class Scripts ========================= //
@@ -125,6 +126,7 @@ void AddSC_CustomDisplayCommands();
 void AddCustomScripts()
 {
     AddSC_custom_player_inventory();
+    AddSC_custom_player_mails();
     AddSC_custom_player_chromie();
 
     AddSC_custom_deathknight_spell_fixes();

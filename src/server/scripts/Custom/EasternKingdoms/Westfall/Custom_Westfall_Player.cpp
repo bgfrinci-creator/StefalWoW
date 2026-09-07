@@ -76,25 +76,8 @@ namespace Scripts::EasternKingdoms::Westfall
             if (player->GetQuestStatus(Quests::TheDefiasBrotherhoodFinal) != QUEST_STATUS_REWARDED)
                 return;
 
-            SendWestfallMurderMail(player);
         }
 
-        void SendWestfallMurderMail(Player* player)
-        {
-            uint32 senderEntry = Creatures::LtHorationLaineAtTower;
-
-            std::string subject = "Urgent Request For Questioning!";
-            std::string text =
-                "Citizen,\n\n"
-                "This is Lieutenant Horatio Laine of the Westfall Brigade. "
-                "Your previous dealings with the Furlbrows have come to our attention.\n\n"
-                "A serious incident has occurred at their farm, and your presence is required "
-                "for questioning. Report to the crime scene immediately.\n\n"
-                "Do not delay.\n"
-                "- Lt. Horatio Laine";
-
-            // No items needed, so pass empty vector
-        }
     };
 }
 

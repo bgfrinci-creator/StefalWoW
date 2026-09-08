@@ -73,6 +73,8 @@ void AddSC_custom_redridge_mountains_objects();
 void AddSC_custom_redridge_mountains_quests();
 void AddSC_custom_redridge_mountains_spells();
 
+void AddSC_custom_dazaralor_objects();
+
 
 // ==================== Delves Scripts ======================= //
 void AddSC_delve_system();
@@ -177,6 +179,8 @@ void AddCustomScripts()
     AddSC_custom_redridge_mountains_objects();
     AddSC_custom_redridge_mountains_quests();
     AddSC_custom_redridge_mountains_spells();
+	
+	AddSC_custom_dazaralor_objects();
 
     // Creature Codex
     //AddSC_creature_codex_sniffer();

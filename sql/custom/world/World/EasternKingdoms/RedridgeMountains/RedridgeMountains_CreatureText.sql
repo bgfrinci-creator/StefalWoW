@@ -1,10 +1,24 @@
 -- Redridge Mountains Creature Text
 DELETE FROM `creature_text` WHERE `creatureID` IN (43081,712,43270,43300,43272,43305,43303,43302,43448,43449,43458,43462,43461,43460,43459,7013,43535,43827);
+<<<<<<< HEAD
 DELETE FROM `creature_text` WHERE `creatureID` IN (43571,43572,43610,43611,703,397);
+=======
+DELETE FROM `creature_text` WHERE `creatureID` IN (43571,43572,43610,43611,703,397,43607,43728,43744);
+>>>>>>> fe42a6b5ec (Scripts/RedridgeMountains: implement quest 26708 Ahhhhhhhhhhhh-Ahhhhhhhhh - part 1)
 DELETE FROM `creature_text` WHERE `creatureID` IN (426,429,430,431,568,580) AND `GroupID` = 1;
 INSERT INTO `creature_text` (`CreatureID`, `GroupID`, `ID`, `Text`, `Type`, `Language`, `Probability`, `Emote`, `Duration`, `Sound`, `BroadcastTextId`, `TextRange`, `comment`) VALUES
 (43610, 0, 0, 'Johnny, you do realize that we just blew up half of Redridge, right?', 12, 7, 100, 0, 0, 0, 43784, 0, 'Messner to Player'),
 (43611, 0, 0, 'Redridge''ll heal, but them orcs sure won''t...', 12, 7, 100, 0, 0, 0, 43786, 0, 'Keeshan to Player'),
+
+(43744, 0, 0, 'AAHHHHHHHHH!!!!', 12, 7, 100, 0, 0, 0, 43822, 0, 'Keeshan to Player'),
+(43744, 0, 1, 'AAHHHHHHHHHHHHHHHHHH!!!!', 14, 7, 100, 0, 0, 0, 43823, 0, 'Keeshan to Player'),
+(43744, 0, 2, 'AAAAAAAAAAAHHHHHHHHHHHHH!!!!', 14, 7, 100, 0, 0, 0, 43824, 0, 'Keeshan to Player'),
+(43744, 0, 3, 'BLOOD AND THUNDER, RIGHT!?', 14, 7, 100, 0, 0, 0, 43825, 0, 'Keeshan to Player'),
+(43744, 0, 4, 'I CAN''T FIND YOUR LEGS, JOEY! I CAN''T FIND YOUR DAMNED LEGS!', 14, 7, 100, 0, 0, 0, 43826, 0, 'Keeshan to Player'),
+(43744, 0, 5, 'AAAHHHH!', 12, 7, 100, 0, 0, 0, 43827, 0, 'Keeshan to Player'),
+(43744, 0, 6, 'RUN TO YOUR DARK GODS, YOU FILTHY ANIMALS!', 12, 7, 100, 0, 0, 0, 43828, 0, 'Keeshan to Player'),
+(43744, 0, 7, 'THERE ARE NO FRIENDLY CIVILIANS!', 12, 7, 100, 0, 0, 0, 43829, 0, 'Keeshan to Player'),
+
 
 (43571, 0, 0, 'We''re free! RUN FOR YOUR LIVES!', 14, 7, 100, 22, 0, 0, 43638, 0, 'Kidnapped Redridge Citizen to Player'),
 (43572, 0, 0, 'We''re free! RUN FOR YOUR LIVES!', 14, 7, 100, 22, 0, 0, 43638, 0, 'Kidnapped Redridge Citizen to Player'),

@@ -548,9 +548,15 @@ enum class CriteriaType : int16
 {
     KillCreature                                   = 0,   // Kill NPC "{Creature}"
     WinBattleground                                = 1,   // Win battleground "{Map}"
+<<<<<<< HEAD
     CompleteResearchProject                        = 2,   /*NYI*/ // Complete research project "{ResearchProject}"
     CompleteAnyResearchProject                     = 3,   /*NYI*/ // Complete any research project
     FindResearchObject                             = 4,   /*NYI*/ // Find research object "{GameObjects}"
+=======
+    CompleteResearchProject                        = 2,   // Complete research project "{ResearchProject}"
+    CompleteAnyResearchProject                     = 3,   // Complete any research project
+    FindResearchObject                             = 4,   // Find research object "{GameObjects}"
+>>>>>>> e934455d4f (Core/Professions: Archaeology fixes)
     ReachLevel                                     = 5,   // Reach level
     ExhaustAnyResearchSite                         = 6,   /*NYI*/ // Exhaust any research site
     SkillRaised                                    = 7,   // Skill "{SkillLine}" raised

@@ -75,6 +75,20 @@ void AddSC_custom_redridge_mountains_spells();
 
 void AddSC_custom_dazaralor_objects();
 
+<<<<<<< HEAD
+=======
+void AddSC_custom_mardum_scenes();
+
+// ==================== Followship Scripts ==================== //
+void AddSC_followship_bots();                // FSB main Script
+void AddSC_followship_bots_player();                // FSB Player Scripts
+void AddSC_followship_bots_commandscript();
+void AddSC_followship_bots_command_stats();
+void AddSC_followship_bots_command_template();
+void AddSC_followship_bots_world();                // FSB World Script
+void AddSC_followship_npcs_player();               // FSB NPC Chat Player Script
+void AddSC_followship_bots_battleground_player(); // FSB Battleground Player Script
+>>>>>>> a7670852b7 (Scripts/DB/Mardum: various improvements for the very start of DH)
 
 // ==================== Delves Scripts ======================= //
 void AddSC_delve_system();
@@ -183,6 +197,20 @@ void AddCustomScripts()
 	
 	AddSC_custom_dazaralor_objects();
 
+<<<<<<< HEAD
+=======
+    AddSC_custom_mardum_scenes();
+
+    AddSC_followship_bots();
+    AddSC_followship_bots_player();
+    AddSC_followship_bots_commandscript();
+    AddSC_followship_bots_command_stats();
+    AddSC_followship_bots_command_template();
+    AddSC_followship_bots_world();
+    AddSC_followship_npcs_player();
+    AddSC_followship_bots_battleground_player();
+
+>>>>>>> a7670852b7 (Scripts/DB/Mardum: various improvements for the very start of DH)
     // Creature Codex
     //AddSC_creature_codex_sniffer();
     //AddSC_creature_codex_commands();
